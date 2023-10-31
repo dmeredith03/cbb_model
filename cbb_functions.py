@@ -27,9 +27,6 @@ from sklearn.metrics import mean_squared_error, r2_score
 # from kenpompy.utils import login
 
 
-# must have chromedriver installed
-#chromedriver = '/usr/local/bin/chromedriver'
-
 
 def get_mgm_df(webpage, tab):
     browser = webdriver.Chrome()
